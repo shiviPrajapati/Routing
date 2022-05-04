@@ -1,0 +1,120 @@
+.navbar{
+    background-color: gray;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+} 
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.home {
+    background-image: url('./cover-v3.jpeg'); 
+    height: 88vh;
+    width: 99vw;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: larger;
+}
+
+.aboutpage{
+    display: flex;
+}
+
+.aboutme{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.mypic{
+    width: 50vw;
+    height: 100vh;
+}
+
+
+.mypic img{
+    margin-left: 30px;
+    width: 40vw;
+    height: 90vh;
+}
+
+.contactpage{
+    display: flex;
+}
+
+.locatemap{
+   width: 50vw;
+   height: 100vw;
+}
+
+.form{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    width:25vw;
+    height: 50vw;
+}
+
+form label{
+    width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+form input{
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.form h1{
+    font-size: 50px;
+    color:brown;
+}
+
+
+button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  iframe{
+      margin-top: 50px;
+    width: 40vw;
+    height: 70vh;
+  }
